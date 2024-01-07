@@ -1,32 +1,30 @@
 How to manage strong & weak references with Async Await.
 ========================================================
 
-  This implies a strong reference...
-    ----------------------------------
+  This implies a strong reference:
+  --------------------------------
     
-    ``````ruby
+  ```````ruby
     func updateData() {
         Task {
             data = await dataService.getData()
         }
     }
+```````
     
-    ``````
-    
-  This is a strong reference...
-    -----------------------------
+ This is a strong reference:
+ ---------------------------
 
-    ```````ruby
+  ```````ruby
     func updateData2() {
         Task {
             self.data = await dataService.getData()
         }
     }
+```````
     
-    ````````
-    
-  This is a strong reference...
-  ------------------------------
+This is a strong reference:
+---------------------------
 
   ```````ruby
     func updateData3() {
