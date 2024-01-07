@@ -51,7 +51,8 @@
 		E41FDEBA2B4B471200AC40AD /* StrongReferences */ = {
 			isa = PBXGroup;
 			children = (
-				E41FDEC92B4B4B1E00AC40AD /* dsdsdsd */,
+				E41FDEBB2B4B471200AC40AD /* StrongReferencesApp.swift */,
+				E41FDEBD2B4B471200AC40AD /* StrongReferences.swift */,
 				E41FDEBF2B4B471300AC40AD /* Assets.xcassets */,
 				E41FDEC12B4B471300AC40AD /* Preview Content */,
 			);
@@ -64,15 +65,6 @@
 				E41FDEC22B4B471300AC40AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E41FDEC92B4B4B1E00AC40AD /* dsdsdsd */ = {
-			isa = PBXGroup;
-			children = (
-				E41FDEBB2B4B471200AC40AD /* StrongReferencesApp.swift */,
-				E41FDEBD2B4B471200AC40AD /* StrongReferences.swift */,
-			);
-			path = dsdsdsd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
